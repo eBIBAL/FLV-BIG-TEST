@@ -1,3 +1,7 @@
 git add .
 git commit -m "Trigger GitHub Pages rebuild"
 git push origin main
+touch .nojekyll
+git add .nojekyll
+git commit -m "Disable Jekyll"
+git push origin main
